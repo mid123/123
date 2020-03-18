@@ -10,35 +10,33 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #ANTIJS_V2
+
 #cl = LineClient()
-cl = LineClient(authToken='EwyXwTEbrfGokoS2Y4v8.sgl/sXGRl9guOXcolZzI6a.PABzl7j4CubRpzzxk5scU1NlRnj2xOGnwM5c/CGFZt8=')
+botStart = time.time()
+cl = LineClient("b10347030@163.com","mvp168")
 cl.log("Auth Token : " + str(cl.authToken))
-channel = LineChannel(cl)
-cl.log("Channel Access Token : " + str(channel.channelAccessToken))
+print("機器壹登入成功")
 
 #ki = LineClient()
-ki = LineClient(authToken='EwZPEfP04NyvrkwvT5j6.ciAODWIOJBp4UC40YB2aPG.AFkJbxee/KyH9wm9P14BPL1ntHFzmSHu9+fvgxeBPEg=')
+botStart = time.time()
+ki = LineClient("aomn020691@163.com","mvp168")
 ki.log("Auth Token : " + str(ki.authToken))
-channel1 = LineChannel(ki)
-ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
+print("機器壹登入成功")
 
 #kk = LineClient()
-kk = LineClient(authToken='EwYRdytxSIqQYb1FuAN6.WKcub2t+uJueUYfdC1qAbG.kcuE5u3klvfwd1IYM+zs5xkxbo3+pIsLrjZ/Um1ti5U=')
+kk = LineClient("ww461861@163.com","mvp168")
 kk.log("Auth Token : " + str(kk.authToken))
-channel2 = LineChannel(kk)
-kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
+print("機器壹登入成功")
 
 #kc = LineClient()
-kc = LineClient(authToken='EwzQfNY5yaHg3Rs3OIy9.WrtAVyZDRBvprHExwvnXkq.5lj592fbau7e3dxelya1Ih8v9FHQpCe09CU7Jrf66xU=')
+kc = LineClient("weiqian02045@163.com","mvp168")
 kc.log("Auth Token : " + str(kc.authToken))
-channel3 = LineChannel(kc)
-kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
+print("機器壹登入成功")
 
 #sw = LineClient()
-sw = LineClient(authToken='EwPYN0FSJU0JDHi4hWl6.uEr21FsOaeuLSWAmhT6MLG.GUW49h6Z9j04PmS0EyEtIqOAFQkTkAwAcJ/DRgND10M=')
+sw = LineClient("yi7717sijiaozha@163.com","mvp168")
 sw.log("Auth Token : " + str(sw.authToken))
-channel11 = LineChannel(sw)
-sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
+print("機器壹登入成功")
 
 poll = LinePoll(cl)
 call = cl
